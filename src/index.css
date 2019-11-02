@@ -1,13 +1,72 @@
+html {
+  height: 100%;
+}
+
 body {
-  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background: linear-gradient(25deg, #d8f5f7 0%, #19b2ee 42%,  #0603bb 90% , rgb(19, 19, 75) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  padding-top: 45px;
+}
+.container{
+  background-color: rgba(27, 27, 27, 0.288);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  margin-top: 1.5rem;
+  min-height: 80vh;
+  text-align: center;
+}
+.text-white{
+  color: azure;
+  margin-top: 25px;
+}
+.formu{
+  margin-top: 35px;
+ 
+}
+form, .mensaje{
+  max-width: 95%;
+  margin: 0 auto;
+}
+form label{
+ 
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+input[type="submit"]:disabled {
+  opacity: .3;
+  color: #da0bda;
+}
+.resultado{
+  border: 2px solid #1df70094;
+  padding: 2rem 0;
+  height: 95%;
+}
+.textored{
+  color: rgb(128, 29, 16);
+  font-weight:bold ;
+}
+.textblanco{
+  color: lemonchiffon;
+}
+
+.footermy{
+  text-align: center;
+  color: rgb(7, 43, 247);
+  text-transform: capitalize;
 }
